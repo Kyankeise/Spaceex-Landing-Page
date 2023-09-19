@@ -24,6 +24,8 @@ function navToggle() {
     menu.classList.toggle('show-menu');
 }
 
+// Controls when the 3 numbers will start to scroll as the user scrolls down.
+
 function scrollPage() {
     const scrollPos = window.scrollY;
     if (scrollPos > 100 && !scrollStarted) {
